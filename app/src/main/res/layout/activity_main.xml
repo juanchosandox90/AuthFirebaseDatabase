@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Enter email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Name"
+        app:layout_constraintEnd_toEndOf="@+id/emailRegister"
+        app:layout_constraintStart_toStartOf="@+id/emailRegister"
+        app:layout_constraintTop_toBottomOf="@+id/emailRegister" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Password"
+        app:layout_constraintEnd_toEndOf="@+id/nameRegister"
+        app:layout_constraintStart_toStartOf="@+id/nameRegister"
+        app:layout_constraintTop_toBottomOf="@+id/nameRegister" />
+
+    <EditText
+        android:id="@+id/passwordConfirmRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Confirm Password"
+        app:layout_constraintEnd_toEndOf="@+id/passwordRegister"
+        app:layout_constraintStart_toStartOf="@+id/passwordRegister"
+        app:layout_constraintTop_toBottomOf="@+id/passwordRegister" />
+
+    <EditText
+        android:id="@+id/verifyCodeRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Verify Code"
+        app:layout_constraintEnd_toEndOf="@+id/passwordConfirmRegister"
+        app:layout_constraintStart_toStartOf="@+id/passwordConfirmRegister"
+        app:layout_constraintTop_toBottomOf="@+id/passwordConfirmRegister" />
+
+    <Button
+        android:id="@+id/buttonSendCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Send Verification Code"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/verifyCodeRegister"
+        app:layout_constraintStart_toStartOf="@+id/verifyCodeRegister"
+        app:layout_constraintTop_toBottomOf="@+id/verifyCodeRegister" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSendCode"
+        app:layout_constraintStart_toStartOf="@+id/buttonSendCode"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSendCode" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

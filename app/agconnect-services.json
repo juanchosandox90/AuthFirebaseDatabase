@@ -1,0 +1,30 @@
+{
+	"agcgw":{
+		"backurl":"connect-dra.dbankcloud.cn",
+		"url":"connect-dra.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"890057000000000948",
+		"product_id":"736430079244578648",
+		"client_id":"413304420625810560",
+		"client_secret":"34501E7FA6A4482219939383B0A20055054F427D202575CCB47C491DBA9EF424",
+		"app_id":"102617241",
+		"package_name":"com.sandoval.authfirebasedatabase",
+		"api_key":"CgB6e3x91mTxgfS70nn2NlNtDazrgw/ilBQyHyHlHVrDxAj5+wEdx3tu/KNkN9SIYzuwLr2LR+4j6chBIafVxgEf"
+	},
+	"service":{
+		"analytics":{
+			"collector_url":"datacollector-dra.dt.hicloud.com,datacollector-dra.dt.dbankcloud.cn",
+			"resource_id":"p1",
+			"channel_id":""
+		},
+		"cloudstorage":{
+			"storage_url":"https://ops-dra.agcstorage.link"
+		},
+		"ml":{
+			"mlservice_url":"ml-api-dra.ai.dbankcloud.com,ml-api-dra.ai.dbankcloud.cn"
+		}
+	},
+	"region":"SG",
+	"configuration_version":"1.0"
+}

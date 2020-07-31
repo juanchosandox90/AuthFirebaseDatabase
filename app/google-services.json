@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "624800775775",
+    "firebase_url": "https://authfirebasedatase.firebaseio.com",
+    "project_id": "authfirebasedatase",
+    "storage_bucket": "authfirebasedatase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624800775775:android:03937fa87fe60b323ae5ea",
+        "android_client_info": {
+          "package_name": "com.sandoval.authfirebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624800775775-s2v412htebec2ngavnvj53qbrhh327m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandoval.authfirebasedatabase",
+            "certificate_hash": "d9c3f3752ded41e408cbf38cf7132b606f183eb3"
+          }
+        },
+        {
+          "client_id": "624800775775-jdc02j8hi71rqhqtqaocodjngqad7vov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3rdFFwRbK-4nbmqzQal3cbSO67Glb6X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624800775775-jdc02j8hi71rqhqtqaocodjngqad7vov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
